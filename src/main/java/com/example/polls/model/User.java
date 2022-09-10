@@ -83,6 +83,10 @@ public class User extends DateAudit {
         return email;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setPassword(String password) {
         this.password = password;
     }
@@ -98,6 +102,8 @@ public class User extends DateAudit {
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
     }
+
+
 }
 
 
